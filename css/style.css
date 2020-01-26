@@ -1,0 +1,12 @@
+
+
+
+.link-action{
+
+	list-style:none;
+	display:inline-grid;
+	position:relative;
+	margin-top:-180px;
+	height: 550px;
+    clear: both;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Database App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+
+    <?php 
+
+    include 'templates/header.php'  ?>
+ 
+    <section>
+      
+      <div class="container">
+        
+
+    <ul>
+      <li class="link-action">
+        <a href="create.php"><strong>Create</strong></a> <!-- add a user -->
+      </li>
+      <li class="link-action">
+        <a href="read.php"><strong>Read</strong></a> <!-- find a user -->
+      </li>
+    </ul>
+
+
+      </div>
+
+    </section>
+
+    <?php include 'templates/footer.php' ?>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+  </body>
+</html>
